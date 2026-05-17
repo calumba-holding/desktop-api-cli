@@ -458,7 +458,7 @@ Downloads/installs require:
 - Create three isolated targets:
   - one managed Desktop profile
   - two managed Server profiles
-- Use `qatest+<digits>@beeper.com` accounts and OTP `959729` only in the scripts that target verified setup APIs.
+- Use `qatest+<digits>@beeper.com` accounts and provide the QA OTP via `BEEPER_E2E_OTP` only in the scripts that target verified setup APIs.
 - Start all targets on non-default ports.
 - Authenticate each target through the appropriate setup mode.
 - Run device-to-device verification between two signed-in targets.
