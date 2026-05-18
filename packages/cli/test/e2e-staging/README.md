@@ -21,8 +21,8 @@ not launch apps, download artifacts, or touch the default Desktop instance.
 ## Basic Plan
 
 ```sh
-cd /Users/batuhan/Projects/labs/desktop-api-cli
-bun run --filter beeper-cli build
+cd path/to/cli
+bun run --filter @beeper/cli build
 
 BEEPER_E2E_RUN_ID=qa-$(date +%Y%m%d-%H%M%S) \
 bun packages/cli/test/e2e-staging.ts
